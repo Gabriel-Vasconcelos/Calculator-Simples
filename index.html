@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora - JS</title>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "./style.css">
+
+</head>
+<body>
+
+	 <div id="calculadora">
+	 	
+	 	<textarea id="display" disabled rows="1"></textarea>
+
+	 	<section>
+	 		<button onclick="pressNumber(this)">1</button>
+	 		<button onclick="pressNumber(this)">2</button>
+	 		<button onclick="pressNumber(this)">3</button>
+	 		<button onclick=" pressOperations(this)">+</button>
+	 	</section>
+	 	<section>
+	 		<button onclick="pressNumber(this)">4</button>
+	 		<button onclick="pressNumber(this)">5</button>
+	 		<button onclick="pressNumber(this)">6</button>
+	 		<button onclick=" pressOperations(this)">-</button>
+	 	</section>
+	 	<section>
+	 		<button onclick="pressNumber(this)">7</button>
+	 		<button onclick="pressNumber(this)">8</button>
+	 		<button onclick="pressNumber(this)">9</button>
+	 		<button onclick=" pressOperations(this)">x</button>
+	 	</section>
+	 	<section>
+	 		<button onclick="pressNumber(this)">0</button>
+	 		<button onclick="pressNumber(this)">.</button>
+	 		<button id="clear" onclick="clearAll()">c</button>
+	 		<button onclick=" pressOperations(this)">/</button>
+	 	</section>
+	 	<button id="button-equal" onclick="pressEqual()" >=</button>
+
+	 </div>
+
+	 <script type="text/javascript" src="./main.js"></script>
+
+</body>
+</html>
